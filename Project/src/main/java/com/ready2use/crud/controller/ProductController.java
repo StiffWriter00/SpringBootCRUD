@@ -1,9 +1,9 @@
-package com.example.demo.controller;
+package com.ready2use.crud.controller;
 
 import java.util.List;
 
-import com.example.demo.entity.Product;
-import com.example.demo.service.ProductService;
+import com.ready2use.crud.entity.Product;
+import com.ready2use.crud.service.ProductService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;

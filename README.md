@@ -1,5 +1,5 @@
 # ***SpringBootCRUD***
-## A simple CRUD server with exposed endpoints made with SpringBoot for "Ready2Use" company.
+## A simple CRUD server with exposed endpoints made with SpringBoot as entry exercise for "Ready2Use" company.
 
 **WARNING**<br>
 This project is compiled with the Java 19 JDK. So whether you install the full JDK or just the JRE to run the application, install the Java 19 version.
@@ -15,7 +15,7 @@ To do that, follow the instructions in the JAR release.
 Instead, if you want to run the application from the actual project (so to have control over the source code too), install Maven (by default it installs the JDK as well) and clone the main repository's branch (**project**), either by using GitHub's website or by using the git CLI with the command:<br>
 ``git clone https://github.com/StiffWriter00/SpringBootCRUD.git``
 
-Then, open a terminal, go to the "SpringBootCRUD/demo" folder and type the following command:<br>
+Then, open a terminal, go to the "SpringBootCRUD/Project" folder and type the following command:<br>
 ``mvn spring-boot:run``
 
 This command alone will download and store all needed dependencies on your computer, compile the source code and run the application.<br>
@@ -24,7 +24,7 @@ Once the application is running, it will be listening for requests on *localhost
 For a quick and easy testing of the REST APIs, install Postman and import the collection file (**CRUD.postman_collection.json**).
 
 **BONUS**<br>
-If you wish to create your own JAR file from the project, go to the "SpringBootCRUD/demo" folder and run the following command:<br>
+If you wish to create your own JAR file from the project, go to the "SpringBootCRUD/Project" folder and run the following command:<br>
 `mvn package spring-boot:repackage`
 
-The JAR file can then be found in the "target" folder named as **demo-1.0-SNAPSHOT.jar** .
+The JAR file can then be found in the "target" folder named as **SpringBootCRUD-SNAPSHOT.jar** .

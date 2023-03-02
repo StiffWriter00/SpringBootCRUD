@@ -1,6 +1,6 @@
-package com.example.demo.repository;
+package com.ready2use.crud.repository;
 
-import com.example.demo.entity.Product;
+import com.ready2use.crud.entity.Product;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

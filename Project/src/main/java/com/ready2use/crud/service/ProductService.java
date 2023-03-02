@@ -1,7 +1,7 @@
-package com.example.demo.service;
+package com.ready2use.crud.service;
 
-import com.example.demo.entity.Product;
-import com.example.demo.repository.ProductRepository;
+import com.ready2use.crud.entity.Product;
+import com.ready2use.crud.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
