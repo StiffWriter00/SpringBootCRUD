@@ -14,9 +14,9 @@ To do that, follow the instructions in the JAR release page.
 
 Instead, if you want to run the application from the actual project (so to have control over the source code too), you need to install Maven (or just download and store the Maven binary in the "SpringBootCRUD/Project" folder if you wish, just keep in mind that you will need to change `mvn` with the name of the binary in the following Maven commands and that the binary needs to be compatible with your operating system) and the JDK on your computer.
 Then, follow these instructions:<br>
-Clone the main repository (**project**), either by using GitHub's website or by using the git CLI with the command:<br>
+- Clone the main repository (**project**), either by using GitHub's website or by using the git CLI with the command:<br>
 ``git clone https://github.com/StiffWriter00/SpringBootCRUD.git``<br>
-Then, open a terminal, go to the "SpringBootCRUD/Project" folder and type the following command:<br>
+- Then, open a terminal, go to the "SpringBootCRUD/Project" folder and type the following command:<br>
 ``mvn spring-boot:run``<br>
 This command alone will download and store every needed dependency on your computer, compile the source code and run the application.<br>
 The JAR file will be located in the "target" folder (the same folder that stores the compiled classes).<br>
