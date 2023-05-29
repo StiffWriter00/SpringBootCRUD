@@ -1,5 +1,5 @@
 # ***SpringBootCRUD***
-## A simple CRUD server with exposed endpoints made with SpringBoot as an entry exercise for "Ready2Use" company.
+## A simple CRUD server with exposed endpoints as my first Spring Boot exercise.
 
 **WARNING**<br>
 This project is made and compiled with the Java 19 JDK. So whether you install the full JDK or just the JRE to run the application, install the Java 19 version.
